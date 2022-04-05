@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'proyecto_familia'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'familia.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:\\Users\\Leandro Carrozzino\\OneDrive\\Escritorio\\ntrega MVT\\familia\\proyecto_familia\\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
